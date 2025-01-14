@@ -29,3 +29,17 @@ git add .
 
 # commit
 git commit -m "message that explains this time commit"
+
+# show the history of the commit (use q can quit)
+git log
+
+# simplified version
+git log --oneline
+
+# check the changing on the files
+git diff ID -- file.md
+
+# return to the previous version (after return need to commit again)
+git check ID -- file.md
+
+
